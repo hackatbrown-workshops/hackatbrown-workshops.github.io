@@ -8,4 +8,5 @@ $blurple: #292249;
 $font-family-base: Circular, sans-serif;
 $brand-primary: $blurple;
 
-@import 'bootstrap';
+@import '../node_modules/bootstrap/scss/bootstrap';
+// @import 'bootstrap';
