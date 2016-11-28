@@ -3,6 +3,9 @@
 
 $blurple: #292249;
 
-h1 {
-    color: $blurple;
-}
+@import 'fonts';
+
+$font-family-base: Circular, sans-serif;
+$brand-primary: $blurple;
+
+@import 'bootstrap';

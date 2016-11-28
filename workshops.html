@@ -1,0 +1,13 @@
+---
+layout: default
+title: Workshops
+permalink: /workshops/
+---
+<h1>Workshops</h1>
+<ul>
+	{% for workshop in site.workshops %}
+		<li>
+			<a href="{{ workshop.url }}">{{ workshop.title }}</a>
+		</li>
+	{% endfor %}
+</ul>
